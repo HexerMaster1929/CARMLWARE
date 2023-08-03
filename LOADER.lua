@@ -103,7 +103,8 @@ function FinishLoading()
 		
 	else
 		FadeSet(MainLoader.LSTAT,"NOT SUPPORTED, CLOSING!")	
-		task.wait(0.30)
+		task.wait(2)
+		UI:Destroy()
 	end
 end
 
