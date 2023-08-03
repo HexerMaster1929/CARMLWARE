@@ -29,9 +29,9 @@ MainLoader.EXECUTOR.Text = Exploit
 function IsGameSupported()
 	local LIST;
 	pcall(function()
-		LIST = loadstring(game:httpget(("https://raw.githubusercontent.com/HexerMaster1929/CARMLWARE/main/GAMES/SUPPORTEDLIST.lua"),true))()
+		LIST = loadstring(game:HttpGet(("https://raw.githubusercontent.com/HexerMaster1929/CARMLWARE/main/GAMES/SUPPORTEDLIST.lua"),true))()
 		end)
-	warn(LIST)
+	warn("LIST: ",LIST)
 	if LIST ~= nil then
 		if  LIST[game.PlaceId] then
 			return true,LIST[game.PlaceId]
@@ -99,7 +99,7 @@ function FinishLoading()
 			ImageTransparency = 1,
 		}):Play()
 		
-		loadstring(game:httpget((tostring(string.format(LOADURL,SNAME,LOADER))),true))()
+		loadstring(game:HttpGet((tostring(string.format(LOADURL,SNAME,LOADER))),true))()
 		
 	else
 		FadeSet(MainLoader.LSTAT,"NOT SUPPORTED, CLOSING!")	
