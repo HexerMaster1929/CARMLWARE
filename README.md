@@ -1,3 +1,9 @@
+# ABOUT
+
+CarmlWare is a ROBLOX Exploit hub Created by GINNIS SOFTWORKS [FORMERLY. HexHub Softworks]
+
+CarmlWare is the rebirth of Hexhus V7 Script with some better features and Interface design!
+
 # LOADSTRING
 ```lua
 _G.CARMLWARE_LOADER = { --customizeable loader stuff
