@@ -492,6 +492,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
 			localplayer.Character:FindFirstChildWhichIsA("Humanoid").JumpPower = Settings["JP"]
 		end
 	end
+		task.wait()
 end)
 
 
