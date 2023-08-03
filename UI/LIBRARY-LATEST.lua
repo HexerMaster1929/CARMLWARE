@@ -192,12 +192,11 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 -- Interface Management
-local Rayfield = script.CARMLWARE
---game:GetObjects("rbxassetid://13013488476")[1]
+local Rayfield = game:GetObjects("rbxassetid://13013488476")[1]
 
 
 
---[[if gethui then
+if gethui then
 	Rayfield.Parent = gethui()
 elseif syn.protect_gui then 
 	syn.protect_gui(Rayfield)
@@ -222,9 +221,9 @@ else
 			Interface.Name = "Rayfield-Old"
 		end
 	end
-end]]--
+end
 
-Rayfield.Parent = game.Players.LocalPlayer.PlayerGui
+--Rayfield.Parent = game.Players.LocalPlayer.PlayerGui
 
 -- Object Variables
 
