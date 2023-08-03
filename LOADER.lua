@@ -1,4 +1,4 @@
--- mega cool loader 😎
+-- special education ass loader
 
 local UI = game:GetObjects("rbxassetid://13823330402")[1]
 local TS = game:GetService("TweenService")
